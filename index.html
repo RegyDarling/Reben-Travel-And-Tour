@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reben Travel & Tour</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">Reben<span>Travel and Tour</span></div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#packages">Packages</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="hamburger" onclick="toggleMenu()">☰</div>
+      <button class="mode-toggle" onclick="toggleMode()">🌙</button>
+    </nav>
+  </header>
+
+    <header class="hero">
+  <div class="hero-content">
+    <h1 class="animate-text">We make imaginations a reality.</h1>
+    <p class="animate-sub">Explore the planet, enjoy nature, live to your fullest.</p>
+    <button class="btn-glass" onclick="exploreNow()">✨ Explore Now</button>
+  </div>
+  <div class="scroll-down">↓</div>
+</header>
+
+ <!-- About -->
+ <section class="about-section">
+  <div class="about-text">
+    <h2>About Us</h2>
+    <p>
+      With us every travel leaves an indelible memory of pure bliss. Whether it's from the beautiful city of Paris to the wonderful Maldives beaches to enjoying the Safari terrain. Your satisfaction is our hallmark.
+    </p>
+  </div>
+  <img src="images/travel1.jpg" alt="Nature's beauty">
+</section>
+
+
+  <!-- Packages -->
+  <section id="packages" class="packages">
+    <h2>Our Travel Packages</h2>
+    <div class="package-cards">
+      <div class="card">
+        <img src="images/Paris-travel.jpg" alt="Paris">
+        <h3>Romantic Paris</h3>
+        <p>5 Days in Paris, Maldives. Includes flights, hotel & tours.</p>
+        <span>$1200</span>
+      </div>
+      <div class="card">
+        <img src="images/safari.jpg" alt="Safari">
+        <h3>African Safari</h3>
+        <p>7 Days wildlife safari in Safari.</p>
+        <span>$1800</span>
+      </div>
+      <div class="card">
+        <img src="images/Maldives-beach.jpg" alt="Maldives">
+        <h3>Maldives Getaway</h3>
+        <p>Luxury 3 Days beach holiday in Maldives.</p>
+        <span>$2200</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Reben Travel & Tour</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
